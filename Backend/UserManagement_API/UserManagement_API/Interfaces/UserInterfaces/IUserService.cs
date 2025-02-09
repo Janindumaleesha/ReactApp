@@ -5,7 +5,5 @@ namespace UserManagement_API.Interfaces.UserInterfaces
 {
     public interface IUserService
     {
-        internal Task<ListResult<ModelUserDetails>> Search();
-        internal Task<ResponseResult<ModelUserDetails>> Select();
     }
 }
