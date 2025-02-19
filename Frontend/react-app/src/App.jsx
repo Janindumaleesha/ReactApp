@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <LoginContent/>
+      <h1>Hello World</h1>
     </>
   )
 }
