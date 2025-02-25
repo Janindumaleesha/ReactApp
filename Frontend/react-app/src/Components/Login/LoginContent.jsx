@@ -1,8 +1,14 @@
 import React from 'react'
+import InputContent from '../Form/InputContent'
+import ButtonContent from '../Form/ButtonContent'
 
 function LoginContent() {
   return (
-    <div>LoginContent</div>
+    <>
+      <InputContent />
+      <InputContent />
+      <ButtonContent />
+    </>
   )
 }
 
